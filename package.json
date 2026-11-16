@@ -1,0 +1,14 @@
+{
+  "name": "auto-request-approver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram bot that approves join requests automatically — runs on Telegram Serverless",
+  "scripts": {
+    "deploy": "tgcloud push && tgcloud migrate",
+    "status": "tgcloud status",
+    "webhook": "tgcloud webhook"
+  },
+  "devDependencies": {
+    "@tgcloud/cli": "^0.2.0"
+  }
+}
